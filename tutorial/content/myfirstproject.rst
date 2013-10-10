@@ -92,7 +92,7 @@ These deployments specific configurations are stored in a ``context.json`` file 
 
 To generate the ``context.json`` enter the following in your shell::
 
-    ape generate_context_json djpl-example-project:product1
+    ape generate_context djpl-example-project:product1
     
 This command generates the ``context.json`` for the product *product1* of the *djpl-example-project* container.
 So everytime we need to setup or deploy a new product we initially need to generate the context

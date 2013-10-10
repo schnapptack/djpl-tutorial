@@ -1,10 +1,7 @@
-Understanding django-productline
-#########################################
-
-This section covers the basic principles of django-productline applications.
 
 
-The project structure
+
+Anatomy of a project
 =======================================
 
 A django-productline always provides the following structure::
@@ -68,7 +65,7 @@ code like defining own models, urlpatterns, views and apis or just very simple c
 like ``django_productline.features.development`` is doing it by setting ``DEBUG=True```.
 
 
-So what is the difference between a feature and a django app?
+Difference between apps and features
 =============================================================
 
 Consider our imaginary django ``blogging`` app, providing some models, urlpatterns,
@@ -91,7 +88,7 @@ one step required to add ``blogging`` to a new project: add the feature to the `
 
 
 
-Understanding how a feature works
+Anatomy of a feature
 ==================================
 
 Let's consider the structure of our imaginary ``blogging`` feature::

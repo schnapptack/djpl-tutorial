@@ -15,6 +15,7 @@ So *cd* in your ``~/Desktop/code`` and execute the following script:
 In fact we just download and execute the ``install.py`` script. ``- webapps``
 specifies the *master container* where your django-productline applications
 will live in.
+
 Congratulations! You just installed django-productline.
 If you got errors, please make sure you have *virtualenv* installed.
 
@@ -49,5 +50,5 @@ some additional packages::
 
     pip install -r _ape/venv/src/django-productline/requirements-dev.txt
     
-django-productline has now successfully installed on your machine.
+django-productline has now been successfully installed on your machine.
 

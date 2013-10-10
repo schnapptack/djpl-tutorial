@@ -24,28 +24,53 @@ reduces the amount of glue code and emphazises reuse.
 
 
 
-Getting started
+Introduction
 ========================
 
-.. toctree::
-    :maxdepth: 2
-    
-    sections/installation
-    sections/myfirstproject
-    
-    
-
-Basics
-=========================
+This section gives a basic introduction to *djpl* and the anatomy of *djpl* projects.
 
 .. toctree::
     :maxdepth: 2
     
+    content/installation
+    content/myfirstproject
+    content/understanding_djpl
     
-    sections/understanding_djpl
     
 
 
+    
+    
+    
+    
+
+Quick Reference
+=======================
+
+This content provides a set of quick reference articles about the usage of *djpl* without 
+additional explanations.
+
+.. toctree::
+    :maxdepth: 2
+    
+    content/quickref_install_djpl
+    content/quickref_setup_a_project
+    content/quickref_product.equation
+    content/quickref_list_of_features
+    
+    
+
+
+Advanced
+=======================
+
+.. toctree::
+    :maxdepth: 2
+    
+    content/advanced/projects
+    content/advanced/tasks
+    content/advanced/features
+    
 
 
 
